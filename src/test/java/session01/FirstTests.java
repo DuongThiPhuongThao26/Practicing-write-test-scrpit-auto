@@ -15,13 +15,13 @@ public class FirstTests {
 
     @Test
     @DisplayName("US1234 - TC01 - First test")
-    public void FirstMethod(){
+    void firstMethod(){
         System.out.println("This is the first test method");
     }
 
     @Test
     @DisplayName("US1234 - TC02 - First test")
-    public void SecondMethod(){
+    void secondMethod(){
         System.out.println("This is the second test method");
     }
 
