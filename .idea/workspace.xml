@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d439b8c6-bba1-4feb-8b22-d1ae84a99de9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d439b8c6-bba1-4feb-8b22-d1ae84a99de9" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingExamplePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WysiwygEditorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/fileUpload/fileUploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/hovers/HoverTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/keyPress/KeyPresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wait/waitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,76 +44,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.DropdownTest.testSelectedOption">
-    <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="features.login.LoginTest" />
+}</component>
+  <component name="RunManager" selected="JUnit.waitTest.testWaitUntilHidden">
+    <configuration name="AlertsTest.testSetTextAndAcceptAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webdriver-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="features.login.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="base.BaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.BaseTest" />
-      <module name="webdriver-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropdownTest.testSelectedOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webdriver-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="features.dropdown.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="features.dropdown" />
-      <option name="MAIN_CLASS_NAME" value="features.dropdown.DropdownTest" />
-      <option name="METHOD_NAME" value="testSelectedOption" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTest" />
+      <option name="METHOD_NAME" value="testSetTextAndAcceptAlert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FrameTests.testWysiwyg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webdriver-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FrameTests" />
+      <option name="METHOD_NAME" value="testWysiwyg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fileUploadTest.testFileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webdriver-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="features.login.*" />
+          <option name="PATTERN" value="features.fileUpload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="features.login" />
-      <option name="MAIN_CLASS_NAME" value="features.login.LoginTest" />
+      <option name="PACKAGE_NAME" value="features.fileUpload" />
+      <option name="MAIN_CLASS_NAME" value="features.fileUpload.fileUploadTest" />
+      <option name="METHOD_NAME" value="testFileUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="waitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webdriver-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wait" />
+      <option name="MAIN_CLASS_NAME" value="wait.waitTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="waitTest.testWaitUntilHidden" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webdriver-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="features.login.*" />
+          <option name="PATTERN" value="wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="features.login" />
-      <option name="MAIN_CLASS_NAME" value="features.login.LoginTest" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="PACKAGE_NAME" value="wait" />
+      <option name="MAIN_CLASS_NAME" value="wait.waitTest" />
+      <option name="METHOD_NAME" value="testWaitUntilHidden" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DropdownTest.testSelectedOption" />
-        <item itemvalue="JUnit.LoginTest.testSuccessfulLogin" />
-        <item itemvalue="JUnit.LoginTest" />
-        <item itemvalue="Application.LoginTest" />
-        <item itemvalue="Application.base.BaseTest" />
+        <item itemvalue="JUnit.waitTest.testWaitUntilHidden" />
+        <item itemvalue="JUnit.waitTest" />
+        <item itemvalue="JUnit.FrameTests.testWysiwyg" />
+        <item itemvalue="JUnit.fileUploadTest.testFileUpload" />
+        <item itemvalue="JUnit.AlertsTest.testSetTextAndAcceptAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +144,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666103040312</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1666702052880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666702052880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,5 +164,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
